@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "seiu-demo",
+  "private_key_id": "9e91743cea5f9fa458869914d78a85ba03d5e59b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3bdQFjiPKxQ7+\nqqCMRAaDnspI1wSQ/lM/i/8LBm6e762h56Z8xEwGNIlJFuoja/fpyoPxJ8N++yTe\nlHVodaDC7cJyb/80TzhpcEaEh92H8HYYXGuikaOXTvxoJpVwQlL7ViXpApRn+xro\ntpdRfMg0Wb/lm3VhzarJt9PczAfZWEtsY3hy0RBPinJy3nT/ylZhyM9d3n/ZJK0O\nxMDit9eTtPNqrN+1plOOoiHpzGIb6U+3eokxNR5SB2bR9GbWpC4yX6yu0UvZdzD0\nKJkiYlUE9nu6AEFRTU9l45erjcmuFeD9hA9Zm2C6Tsc7DNKbVy7raZzUVro7bCob\nhAfR9pzvAgMBAAECggEAAtnDmkR/vOZ8GawYK6Xg/gmpNiGVUhWJwKqRz5+Nd43d\nAm+hsD2yusP1QDwJbnx+kVUS4NwP1zja9VSUUIfHdFASngmsiykSBN14UxXzdOnh\nQ/anu5KM2syg8pNq7iAxvvMzSqA+IzGNVQGFb4BDckDU0SIt3FPAbDsdoUhQdOm6\nH6Km/HtzwxfYeh3wx507QauaWbW7tS3e2Z/1YrQHcJoTu84LCnNVqc616qCdz/Oo\ncoMjFsr3w3sFVBFpQZJ3RoezzC/sSb1/ne97c8o7LCBj1ua/dvIHN8tdOD/2erYu\n8VSFNgUghFDygo9UFToJDpHvdHbHVWMtZAuwfSdhDQKBgQDkilVPCRXm1H8HbTTz\nb50/+/CedjtO8B9mouIkGkkqG7MKSqcUPVl4MjDGnAOxeXfNdP4DkhrP2mFR3ZNX\nCaMV1JL56HxYxH1WrrvIVV+FEE5DLI09ZFp6MrTGgkpLT20dyfJajQt0Tecpp1tM\n+FhVOHZTPo6YxojYKl7V++OmiwKBgQDNd+qQrx6Ccni82JDGKwFCaKUJPRNQWdtq\n/nhqGGIS+zU6NxPIlLvsy1HhsO7pC6QOOAi/88sd+ES7U3R1ujkPEUTjD8vYJX45\nbHwtGoGgvNd7tybDqDTFaNNSc744c1rOIbuLsXUFEe2Ay6jQhnADJTDcpnAVWZ0f\nna1KwmBTrQKBgDMLqs5Caz/pio3wGHmfHnJiJXZfVhPlkj3sd7I0pM7g7PaJghQF\nN+ye2UIjKrgDN30OeoX1pkNytXYBlZ1FK8X+eu2SveNdz9kCojK2zuT7pV9fnhRu\nS78rgDEufMWhce/LYXRUOJC7rbwiA0SH28L9H4CsYlFBVuNhY1lML6bNAoGBAKgN\ns9IhGYAyZqR3MXqURBRwCMRUqw5mYHvTpOOKC/VgeDmkQM8nL8nOxqslD1OXTNjA\nZg+yNGjP3k+lQ7Ti2raDNmfNTLn+eI45OBuf+XRh4JF0zQTs+DSat3VR67y6RQQi\nPQZV39OExVA5w1rDCqzX524hx7z+re/lBI8ICseFAoGBAMmln9si1VUiPfH/JO9a\n/h3uY4oVKxJE8r8bRh3sEYIO7tqo8zbpgXN4TTeuogSHjyaDYmXi4NiF+g1pdE0w\n2pOz2R+22aUv0aKQeDQVXM9+fbCFwZa7Mkoh2NuSZC/dfj9hGTPs+JnY7omUkmnj\nRP7Aw/CBndGSUX8XKsn/WLH4\n-----END PRIVATE KEY-----\n",
+  "client_email": "eligibility-service@seiu-demo.iam.gserviceaccount.com",
+  "client_id": "116255328566386601248",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eligibility-service%40seiu-demo.iam.gserviceaccount.com"
+}
