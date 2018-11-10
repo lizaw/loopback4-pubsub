@@ -1,0 +1,31 @@
+apiVersion: skaffold/v1alpha2
+kind: Config
+build:
+  tagPolicy:
+    envTemplate:
+      template: "{{.DOCKER_REGISTRY}}/lizawu68-gmail-com/loopback4-pubsub:{{.VERSION}}"
+  artifacts:
+  - imageName: changeme
+    workspace: .
+    docker: {}
+  local: {}
+deploy:
+  kubectl:
+    manifests:
+profiles:
+- name: dev
+  build:
+    tagPolicy:
+      envTemplate:
+        template: "{{.DOCKER_REGISTRY}}/lizawu68-gmail-com/loopback4-pubsub:{{.DIGEST_HEX}}"
+    artifacts:
+    - docker: {}
+    local: {}
+  deploy:
+    helm:
+      releases:
+      - name: loopback4-pubsub
+        chartPath: charts/loopback4-pubsub
+        setValueTemplates:
+          image.repository: "{{.DOCKER_REGISTRY}}/lizawu68-gmail-com/loopback4-pubsub"
+          image.tag: "{{.DIGEST_HEX}}"
