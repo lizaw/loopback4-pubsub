@@ -19,7 +19,7 @@ function listenForMessages(subscriptionName, timeout) {
 
   // References an existing subscription
   const subscription = pubsub.subscription(subscriptionName);
-
+  //....
   // Create an event handler to handle messages
   let messageCount = 0;
   const messageHandler = (message) => {
